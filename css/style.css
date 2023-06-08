@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Noto+Sans+KR:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+    color:white;
+
+}
+
+button{
+    border:0;
+    background-color:transparent;
+    color:white;
+}
+ul {
+    list-style-image: url("img/shootingstar.png");
+ }
+#background{
+    position:absolute;
+    width: 100%;
+    left: 0px;
+    z-index: -1;
+    height: 100%;
+    bottom: 0px;
+    opacity: 80%;
+    background-size:cover;
+}
+
+
+input{
+    border-top: none;
+    border-left:none;
+    border-right: none ;
+    background-color: transparent;
+    align-items: center;
+
+
+}
+::placeholder{
+    color:white;
+}
+/*  */
+
+#clock-date-weather{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#clock-date{
+    margin-left:3%;
+    
+}
+#clock{
+    margin-bottom: 0;
+    margin-top:0;
+    font-size: 35px;
+}
+#date{
+    margin:0;
+    text-align: center;
+}
+#weather{
+    margin-right:3%;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+#weather p:last-child {
+    margin-bottom:0;
+    margin-top: 0;
+}
+
+/*  */
+.hidden{
+    display:none;
+}
+#login-form{
+    margin-top:30px;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+#login-form p{
+    font-size:100px;
+    display:block;
+    font-family:'Pacifico', cursive;
+    margin-bottom: 0;
+}
+
+#login-form>.input-name{
+    width: 250px;
+    height: 30px;;
+    font-size: medium;
+    
+}
+
+#login-form>.input-enter{
+    border:none;
+    color:white;
+}
+#greeting{
+    text-align:center;
+    font-family:'Pacifico', cursive;
+}
+
+#greeting{
+    font-size: 50px;
+}
+
+/*  */
+#todo-form{
+    text-align: center;
+}
+#todo-form input{
+    width: 30%;
+    height:5%
+}
+
+#todo-form input::placeholder{
+    font-size:15px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#todo-list{
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    list-style: none;
+    font-size:20px;
+
+}
+#todo-list button{
+    margin-left:15px;
+}
+#todo-list input[type="checkbox"]{
+        width: 20px;
+        height:20px;
+        /* accent-color:black; */
+        accent-color: #f4f4f4bd;
+        margin-right: 20px;
+    
+}
+.complete{
+    text-decoration: line-through;
+}
+
+/*  */
+#quote{
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0px;
+    position:fixed;
+    bottom:5%;
+    left:25%;
+    right:25%;
+
+}
+#quote>span{
+    display:block;
+    font-size:15px;
+    text-align: center;
+}
+#quote>span:last-child{
+    font-size: 13px;
+    font-style: italic;
+    text-align: center;
+    display:block;
+}
+#quote:hover{
+    opacity: 0.5;
+}
